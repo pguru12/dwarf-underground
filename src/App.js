@@ -8,7 +8,8 @@ import ParTwo from './ParTwo'
 import Links from './Links'
 import Hammer from './Hammer'
 //import Adattempt from './Adattempt'
-import SingleSheet from './SingleSheet'
+//import SingleSheet from './SingleSheet'
+import OtherArticles from './OtherArticles'
 
 class App extends Component {
   render() {
@@ -24,8 +25,8 @@ class App extends Component {
           <Links/>
           <Hammer/>
       <div className="small-12 columns other-articles">
-         <h2>From around the Realm</h2>
-            <SingleSheet/>
+         {/*<h2>From around the Realm</h2>*/}
+            <OtherArticles/>
             {/*Adattempt(https://www.enclavepublishing.com/wp-content/uploads/2015/11/tumblr_inline_mtvwr6T4qH1r8eb4v.gif, orc, Single Orcs in Indianapolis)
             Adattempt(https://images.fineartamerica.com/images-medium-large-5/rocky-mountain-landscape-meadow-in-spring-western-panorama-with-wildflowers-square-format-walt-curlee.jpg, mountain, You won't believe what's under this mountain)
             Adattempt(http://orig01.deviantart.net/a278/f/2010/357/9/7/seamless___gold_coins_by_bartalon-d35iydr.jpg, gold, Mine 20% more gold with One Weird Trick)
