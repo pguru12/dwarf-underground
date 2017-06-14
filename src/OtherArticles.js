@@ -29,7 +29,7 @@ const articleData =[
              
         <div className="small-12 columns other-article">
             <h2>From around the realm</h2>
-            {articleData.map(article => <OtherArticle article={article} />)}
+            {articleData.map((article, i) => <OtherArticle article key={article} />)}
         </div>
          )
      }
